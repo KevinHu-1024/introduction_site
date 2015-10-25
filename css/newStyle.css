@@ -1,0 +1,29 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft YaHei";
+}
+
+.container {
+	width: 1140px;
+	overflow: hidden;
+}
+
+#firstPage {
+	height: 1000px;
+	border: 1px dotted red;
+}
+
+#navBar {
+	height: 52px;
+	border: 1px dotted green;
+}
+
+#secondPage {
+	height: 1000px;
+	border: 1px dotted black;
+}
+
+#thirdPage {
+	height: 1000px;
+}
