@@ -5,25 +5,53 @@
 }
 
 .container {
-	width: 1140px;
+	width: 990px; /*减去了10px的左右边框*/
 	overflow: hidden;
+	border: 5px dotted green;
 }
 
 #firstPage {
 	height: 1000px;
+	width: 1000px;
 	border: 1px dotted red;
+	background-color: #22B573;
 }
 
 #navBar {
 	height: 52px;
+	width: 1000px;
 	border: 1px dotted green;
 }
 
 #secondPage {
-	height: 1000px;
+	height: auto;
+	width: 1000px;
 	border: 1px dotted black;
 }
 
 #thirdPage {
-	height: 1000px;
+	height: auto;
+	width: 1000px;
+	border: 1px dotted red;
 }
+
+#wanted {
+	height: auto;
+	border: 1px dotted green;
+}
+
+/*欢迎页面*/
+#firstTitle {
+	margin-top: 435px;
+	text-align: center;
+	font-size: 98px;
+	color: white;
+	border: 1px dotted white;
+}
+/*导航栏*/
+
+/*简介页面*/
+
+/*技能页面*/
+
+/*邮箱*/
