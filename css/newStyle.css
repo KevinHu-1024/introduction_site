@@ -81,10 +81,13 @@
 	float: left;
 	width: 200px;
 	border: 1px dotted red;
+	margin: 5px;
 }
-#intro-texe {
+#intro-text {
 	display: inline;
+	width: 600px;
 	border: 1px dotted red;
+	margin: 5px;
 }
 /*技能页面*/
 
