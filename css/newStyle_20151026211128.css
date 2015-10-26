@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft YaHei";
+}
+
+.container {
+	width: 990px; /*减去了10px的左右边框*/
+	overflow: hidden;
+	border: 5px dotted green;
+}
+
+#firstPage {
+	height: 1000px;
+	width: 1000px;
+	border: 1px dotted red;
+	background-color: #22B573;
+}
+
+#navBar {
+	height: 51px;
+	width: 1000px;
+	border: 1px dotted green;
+	background-color: #42474B;
+}
+
+#secondPage {
+	height: auto;
+	width: 1000px;
+	border: 1px dotted black;
+	background-color: #1889C5;;
+}
+
+#thirdPage {
+	height: auto;
+	width: 1000px;
+	border: 1px dotted red;
+}
+
+#wanted {
+	height: auto;
+	border: 1px dotted green;
+}
+
+/*欢迎页面*/
+#firstTitle {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 98px;
+	color: white;
+	border: 1px dotted white;
+}
+/*导航栏*/
+#navBar header {
+	padding-top: 12.5px;
+}
+#logo {
+	display: inline;
+
+}
+#nav-Hyperlink {
+	display: inline;
+	float: right;
+}
+#nav-Hyperlink a {
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+	text-decoration: none;
+}
+#nav-Hyperlink a:hover {
+	color: #999;
+}
+/*简介页面*/
+#intro {
+	color: white;
+}
+#intro-list {
+	display: inline;
+	/*float: left;*/
+	width: 250px;
+	border: 1px dotted red;
+}
+#intro-texe {
+	display: inline;
+	border: 1px dotted red;
+}
+/*技能页面*/
+
+/*邮箱*/
