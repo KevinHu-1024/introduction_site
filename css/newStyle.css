@@ -75,16 +75,23 @@
 /*简介页面*/
 #intro {
 	color: white;
+	margin-top: 200px;
 }
 #intro-list {
 	display: inline;
 	float: left;
-	width: 200px;
+	width: 300px;
 	border: 1px dotted red;
 	margin: 5px;
 }
+#intro-list span {
+	text-align: right;
+	width: 80px;
+	display: inline-block;
+}
 #intro-text {
 	display: inline;
+	float: right;
 	width: 600px;
 	border: 1px dotted red;
 	margin: 5px;
