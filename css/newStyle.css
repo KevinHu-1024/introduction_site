@@ -8,6 +8,7 @@
 	width: 990px; /*减去了10px的左右边框*/
 	overflow: hidden;
 	border: 5px dotted green;
+	color: white;
 }
 
 #firstPage {
@@ -40,7 +41,9 @@
 
 #wanted {
 	height: auto;
+	width: 1000px;
 	border: 1px dotted green;
+	background-color: #ED6461;
 }
 
 /*欢迎页面*/
@@ -98,9 +101,6 @@
 	margin: 5px;
 }
 /*技能页面*/
-#thirdPage {
-	color: white;
-}
 #thirdPage .container {
 	width: 100%;
 	border: 1px dotted white;
@@ -127,3 +127,9 @@
     color: black;
 }
 /*邮箱*/
+#wanted p {
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	font-size: 30px;
+}
