@@ -35,6 +35,7 @@
 	height: auto;
 	width: 1000px;
 	border: 1px dotted red;
+	background-color: #9C58B6;
 }
 
 #wanted {
@@ -97,5 +98,32 @@
 	margin: 5px;
 }
 /*技能页面*/
-
+#thirdPage {
+	color: white;
+}
+#thirdPage .container {
+	width: 100%;
+	border: 1px dotted white;
+}
+#thirdPage h2 {
+	padding-top: 20px;
+	text-align: center;
+}
+.skill-table {
+	display: inline-block;
+	width: 130px;
+	margin: 50px;
+	border: 2px solid white;
+	list-style-type: none;
+	text-align: center;
+	vertical-align: top;
+}
+#thirdPage .skillTitle {
+	background-color: white;
+	color: black;
+}
+#thirdPage li:hover {
+    background-color: white;
+    color: black;
+}
 /*邮箱*/
