@@ -5,8 +5,14 @@
 	height: 100%;
 }
 
+/*body {
+	width: 100%;
+}*/
+
 .container {
-	width: 990px; /*减去了10px的左右边框*/
+	/*width: 990px; /*减去了10px的左右边框*/
+	width: 100%;
+	min-width: 990px;
 	overflow: hidden;
 	border: 5px dotted green;
 	color: white;
@@ -15,35 +21,35 @@
 #firstPage {
 	/*height: 900px;*/
 	height: 100%;
-	width: 1000px;
+	/*width: 1000px;*/
 	border: 1px dotted red;
 	background-color: #22B573;
 }
 
 #navBar {
 	height: 51px;
-	width: 1000px;
+	/*width: 1000px;*/
 	border: 1px dotted green;
 	background-color: #42474B;
 }
 
 #secondPage {
 	height: auto;
-	width: 1000px;
+	/*width: 1000px;*/
 	border: 1px dotted black;
 	background-color: #1889C5;;
 }
 
 #thirdPage {
 	height: auto;
-	width: 1000px;
+	/*width: 1000px;*/
 	border: 1px dotted red;
 	background-color: #9C58B6;
 }
 
 #wanted {
 	height: auto;
-	width: 1000px;
+	/*width: 1000px;*/
 	border: 1px dotted green;
 	background-color: #ED6461;
 }
@@ -67,6 +73,8 @@
 /*导航栏*/
 #navBar header {
 	padding-top: 12.5px;
+	color: white;
+	border: 5px dotted green;
 }
 #logo {
 	display: inline;
@@ -132,10 +140,12 @@
 #thirdPage .skillTitle {
 	background-color: white;
 	color: black;
+	cursor: default;
 }
 #thirdPage li:hover {
     background-color: white;
     color: black;
+    cursor: default;
 }
 /*邮箱*/
 #wanted p {
