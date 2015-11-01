@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: "Microsoft YaHei";
+	height: 100%;
 }
 
 .container {
@@ -12,7 +13,8 @@
 }
 
 #firstPage {
-	height: 900px;
+	/*height: 900px;*/
+	height: 100%;
 	width: 1000px;
 	border: 1px dotted red;
 	background-color: #22B573;
@@ -47,7 +49,8 @@
 }
 
 /*欢迎页面*/
-#firstPage .container {    /*-----首页文字垂直居中------*/
+#firstPage .container { 
+    height: 132px;  /*-----首页文字垂直居中------*/
 	position: absolute;
 	top: 50%;
 	width: 990px;
@@ -56,7 +59,7 @@
 }
 #firstTitle {
 	position: relative;
-	top: -50px;
+	top: -50%;
 	right: 0;
 	text-align: center;
 	font-size: 98px;
