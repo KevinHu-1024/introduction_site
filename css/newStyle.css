@@ -49,22 +49,20 @@
 }
 
 /*欢迎页面*/
-#firstPage .container { 
-    height: 132px;  /*-----首页文字垂直居中------*/
-	position: absolute;
-	top: 50%;
-	width: 990px;
+#firstPage .container { /*-----首页文字垂直居中 方案2------*/
+    display: table;
+    height: 100%;  
+	
 	text-align: center;
 	overflow: visible;
 }
 #firstTitle {
-	position: relative;
-	top: -50%;
-	right: 0;
+	display: table-cell;
+	vertical-align: middle;
 	text-align: center;
 	font-size: 98px;
 	color: white;
-	border: 1px dotted white; /*-----首页文字垂直居中------*/
+	border: 1px dotted white; /*-----首页文字垂直居中 方案2------*/
 }
 /*导航栏*/
 #navBar header {
